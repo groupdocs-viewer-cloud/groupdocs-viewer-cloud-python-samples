@@ -3,15 +3,15 @@ import groupdocs_viewer_cloud
 from Common_Utilities.Utils import Common_Utilities
 
 # Get your app_sid and app_key at https://dashboard.groupdocs.cloud (free registration is required).
-Common_Utilities.host_url = "http://api.groupdocs.cloud"  # Put your Host URL here
-Common_Utilities.app_sid = "XXXXX-XX"
-Common_Utilities.app_key = "XXXXXX"
-Common_Utilities.myStorage = "XXX"
+Common_Utilities.host_url = "https://api.groupdocs.cloud"  # Put your Host URL here
+Common_Utilities.app_sid = "XXXXX-XXXXX-XXXXX"
+Common_Utilities.app_key = "XXXXXXXXXX"
+Common_Utilities.myStorage = "XXXXX"
 
-# #########################################
-# print("Executing Upload Test Files...")
-# Common_Utilities.Upload_Test_Files()
-# #########################################
+#########################################
+print("Executing Upload Test Files...")
+Common_Utilities.Upload_Test_Files()
+#########################################
 
 ###########################################
 #******* Execute Examples *******
@@ -99,9 +99,9 @@ Viewer_Python_Get_All_Supported_Formats.Run()
 print("*** Executing Working_With_Document_Information...")
 ############################################################
 
-print("* Executing Viewer_Python_Get_Info_With_Minimal_ViewOptions...")
-from Working_With_Document_Information.Viewer_Python_Get_Info_With_Minimal_ViewOptions import Viewer_Python_Get_Info_With_Minimal_ViewOptions
-Viewer_Python_Get_Info_With_Minimal_ViewOptions.Run()
+# print("* Executing Viewer_Python_Get_Info_With_Minimal_ViewOptions...")
+# from Working_With_Document_Information.Viewer_Python_Get_Info_With_Minimal_ViewOptions import Viewer_Python_Get_Info_With_Minimal_ViewOptions
+# Viewer_Python_Get_Info_With_Minimal_ViewOptions.Run()
 
 # print("* Executing Viewer_Python_Get_Info_With_CAD_Options...")
 # from Working_With_Document_Information.Viewer_Python_Get_Info_With_CAD_Options import Viewer_Python_Get_Info_With_CAD_Options
@@ -186,3 +186,11 @@ Viewer_Python_Get_Info_With_Minimal_ViewOptions.Run()
 # print("* Executing Viewer_Python_Delete_View_With_Default_ViewFormat...")
 # from Working_With_View.Viewer_Python_Delete_View_With_Default_ViewFormat import Viewer_Python_Delete_View_With_Default_ViewFormat
 # Viewer_Python_Delete_View_With_Default_ViewFormat.Run()
+
+print("* Executing Viewer_Python_Create_View_With_Responsive_HTML...")
+from Working_With_View.Viewer_Python_Create_View_With_Responsive_HTML import Viewer_Python_Create_View_With_Responsive_HTML
+Viewer_Python_Create_View_With_Responsive_HTML.Run()
+
+print("* Executing Viewer_Python_Create_View_With_OutputPath...")
+from Working_With_View.Viewer_Python_Create_View_With_OutputPath import Viewer_Python_Create_View_With_OutputPath
+Viewer_Python_Create_View_With_OutputPath.Run()
