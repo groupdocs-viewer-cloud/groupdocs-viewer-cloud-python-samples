@@ -8,7 +8,7 @@ class Viewer_Python_Create_View_With_Spreadsheet_Render_Hidden_Rows_Option:
     @classmethod
     def Run(self):
         # Create instance of the API
-        api = Common_Utilities.Get_ViewerApi_Instance()
+        api = Common_Utilities.Get_ViewApi_Instance()
         
         try:
             viewOptions = groupdocs_viewer_cloud.ViewOptions()

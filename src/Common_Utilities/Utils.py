@@ -10,9 +10,14 @@ class Common_Utilities:
     myStorage = None
     
     @classmethod
-    def Get_ViewerApi_Instance(self):
+    def Get_ViewApi_Instance(self):
         # Create instance of the API
-        return groupdocs_viewer_cloud.ViewerApi.from_keys(Common_Utilities.app_sid, Common_Utilities.app_key)
+        return groupdocs_viewer_cloud.ViewApi.from_keys(Common_Utilities.app_sid, Common_Utilities.app_key)
+    
+    @classmethod
+    def Get_InfoApi_Instance(self):
+        # Create instance of the API
+        return groupdocs_viewer_cloud.InfoApi.from_keys(Common_Utilities.app_sid, Common_Utilities.app_key)
     
     @classmethod
     def Get_StorageApi_Instance(self):
