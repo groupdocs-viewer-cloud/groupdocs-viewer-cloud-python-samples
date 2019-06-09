@@ -7,7 +7,7 @@ class Viewer_Python_Get_All_Supported_Formats:
     @classmethod
     def Run(self):
         # Create instance of the API
-        api = Common_Utilities.Get_ViewerApi_Instance()
+        api = Common_Utilities.Get_InfoApi_Instance()
         
         try:
             # Retrieve supported file-formats

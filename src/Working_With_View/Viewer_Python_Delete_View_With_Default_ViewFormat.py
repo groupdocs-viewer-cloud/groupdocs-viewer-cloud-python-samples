@@ -8,7 +8,7 @@ class Viewer_Python_Delete_View_With_Default_ViewFormat:
     @classmethod
     def Run(self):
         # Create instance of the API
-        api = Common_Utilities.Get_ViewerApi_Instance()
+        api = Common_Utilities.Get_ViewApi_Instance()
         
         try:
             deleteViewOptions = groupdocs_viewer_cloud.DeleteViewOptions()

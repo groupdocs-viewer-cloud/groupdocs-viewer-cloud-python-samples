@@ -8,7 +8,7 @@ class Viewer_Python_Get_Info_With_Minimal_ViewOptions:
     @classmethod
     def Run(self):
         # Create instance of the API
-        api = Common_Utilities.Get_ViewerApi_Instance()
+        api = Common_Utilities.Get_InfoApi_Instance()
         
         try:
             viewOptions = groupdocs_viewer_cloud.ViewOptions()
