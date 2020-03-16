@@ -1,0 +1,126 @@
+# Import modules
+import groupdocs_viewer_cloud
+from Common import Common
+
+# Get your app_sid and app_key at https://dashboard.groupdocs.cloud (free registration is required).
+Common.app_sid = "XXXX-XXXX-XXXX-XXXX"
+Common.app_key = "XXXXXXXXXXXXXXXXXX"
+
+Common.myStorage = "First Storage"
+
+# Uploading sample test files from local disk to cloud storage
+Common.UploadSampleFiles()
+
+# Basic usage Examples
+
+from BasicUsage.GetSupportedFormats import GetSupportedFormats
+GetSupportedFormats.Run()
+from BasicUsage.GetDocumentInformation import GetDocumentInformation
+GetDocumentInformation.Run()
+from BasicUsage.GetAttachments import GetAttachments
+GetAttachments.Run()
+from BasicUsage.HtmlViewer.HtmlViewerExcludeFonts import HtmlViewerExcludeFonts
+HtmlViewerExcludeFonts.Run()
+from BasicUsage.HtmlViewer.HtmlViewerMinifyHtml import HtmlViewerMinifyHtml
+HtmlViewerMinifyHtml.Run()
+from BasicUsage.HtmlViewer.HtmlViewerResponsiveLayout import HtmlViewerResponsiveLayout
+HtmlViewerResponsiveLayout.Run()
+from BasicUsage.ImageViewer.ImageViewerAddTextOverlay import ImageViewerAddTextOverlay
+ImageViewerAddTextOverlay.Run()
+from BasicUsage.ImageViewer.ImageViewerAdjustImageSize import ImageViewerAdjustImageSize
+ImageViewerAdjustImageSize.Run()
+from BasicUsage.ImageViewer.ImageViewerAdjustJpgQuality import ImageViewerAdjustJpgQuality
+ImageViewerAdjustJpgQuality.Run()
+from BasicUsage.ImageViewer.ImageViewerGetTextCoordinates import ImageViewerGetTextCoordinates
+ImageViewerGetTextCoordinates.Run()
+from BasicUsage.PdfViewer.PdfViewerAdjustJpgQuality import PdfViewerAdjustJpgQuality
+PdfViewerAdjustJpgQuality.Run()
+from BasicUsage.PdfViewer.PdfViewerProtectPdf import PdfViewerProtectPdf
+PdfViewerProtectPdf.Run()
+
+# Advanced usage Examples
+
+from AdvancedUsage.CommonRenderingOptions.AddWatermark import AddWatermark
+AddWatermark.Run()
+from AdvancedUsage.CommonRenderingOptions.FlipRotatePages import FlipRotatePages
+FlipRotatePages.Run()
+from AdvancedUsage.CommonRenderingOptions.RenderComments import RenderComments
+RenderComments.Run()
+from AdvancedUsage.CommonRenderingOptions.RenderConsecutivePages import RenderConsecutivePages
+RenderConsecutivePages.Run()
+from AdvancedUsage.CommonRenderingOptions.RenderHiddenPages import RenderHiddenPages
+RenderHiddenPages.Run()
+from AdvancedUsage.CommonRenderingOptions.RenderNotes import RenderNotes
+RenderNotes.Run()
+from AdvancedUsage.CommonRenderingOptions.RenderSelectedPages import RenderSelectedPages
+RenderSelectedPages.Run()
+from AdvancedUsage.CommonRenderingOptions.RenderWithCustomFonts import RenderWithCustomFonts
+RenderWithCustomFonts.Run()
+from AdvancedUsage.CommonRenderingOptions.ReorderPages import ReorderPages
+ReorderPages.Run()
+from AdvancedUsage.CommonRenderingOptions.ReplaceMissingFont import ReplaceMissingFont
+ReplaceMissingFont.Run()
+from AdvancedUsage.LoadingOptions.SpecifyEncoding import SpecifyEncoding
+SpecifyEncoding.Run()
+from AdvancedUsage.LoadingOptions.ViewProtectedDocument import ViewProtectedDocument
+ViewProtectedDocument.Run()
+from AdvancedUsage.RenderingOptionsByFileType.RenderingArchiveFiles.GetInfoForArchiveFile import GetInfoForArchiveFile
+GetInfoForArchiveFile.Run()
+from AdvancedUsage.RenderingOptionsByFileType.RenderingArchiveFiles.RenderArchiveFolder import RenderArchiveFolder
+RenderArchiveFolder.Run()
+from AdvancedUsage.RenderingOptionsByFileType.RenderingCadDrawings.AdjustOutputImageSize import AdjustOutputImageSize
+AdjustOutputImageSize.Run()
+from AdvancedUsage.RenderingOptionsByFileType.RenderingCadDrawings.GetInfoForCadDrawing import GetInfoForCadDrawing
+GetInfoForCadDrawing.Run()
+from AdvancedUsage.RenderingOptionsByFileType.RenderingCadDrawings.RenderAllLayouts import RenderAllLayouts
+RenderAllLayouts.Run()
+from AdvancedUsage.RenderingOptionsByFileType.RenderingCadDrawings.RenderLayers import RenderLayers
+RenderLayers.Run()
+from AdvancedUsage.RenderingOptionsByFileType.RenderingCadDrawings.RenderSingleLayout import RenderSingleLayout
+RenderSingleLayout.Run()
+from AdvancedUsage.RenderingOptionsByFileType.RenderingEmailMessages.AdjustPageSize import AdjustPageSize
+AdjustPageSize.Run()
+from AdvancedUsage.RenderingOptionsByFileType.RenderingEmailMessages.RenameEmailFields import RenameEmailFields
+RenameEmailFields.Run()
+from AdvancedUsage.RenderingOptionsByFileType.RenderingMsProjectDocuments.AdjustTimeUnit import AdjustTimeUnit
+AdjustTimeUnit.Run()
+from AdvancedUsage.RenderingOptionsByFileType.RenderingMsProjectDocuments.GetInfoForProjectFile import GetInfoForProjectFile
+GetInfoForProjectFile.Run()
+from AdvancedUsage.RenderingOptionsByFileType.RenderingMsProjectDocuments.RenderTimeInterval import RenderTimeInterval
+RenderTimeInterval.Run()
+from AdvancedUsage.RenderingOptionsByFileType.RenderingOutlookDataFiles.FilterMessages import FilterMessages
+FilterMessages.Run()
+from AdvancedUsage.RenderingOptionsByFileType.RenderingOutlookDataFiles.GetInfoForOutlookDataFile import GetInfoForOutlookDataFile
+GetInfoForOutlookDataFile.Run()
+from AdvancedUsage.RenderingOptionsByFileType.RenderingOutlookDataFiles.LimitCountOfItemsToRender import LimitCountOfItemsToRender
+LimitCountOfItemsToRender.Run()
+from AdvancedUsage.RenderingOptionsByFileType.RenderingOutlookDataFiles.RenderFolder import RenderFolder
+RenderFolder.Run()
+from AdvancedUsage.RenderingOptionsByFileType.RenderingPdfDocuments.AdjustImageQuality import AdjustImageQuality
+AdjustImageQuality.Run()
+from AdvancedUsage.RenderingOptionsByFileType.RenderingPdfDocuments.DisableCharsGrouping import DisableCharsGrouping
+DisableCharsGrouping.Run()
+from AdvancedUsage.RenderingOptionsByFileType.RenderingPdfDocuments.EnableFontHinting import EnableFontHinting
+EnableFontHinting.Run()
+from AdvancedUsage.RenderingOptionsByFileType.RenderingPdfDocuments.EnableLayeredRendering import EnableLayeredRendering
+EnableLayeredRendering.Run()
+from AdvancedUsage.RenderingOptionsByFileType.RenderingPdfDocuments.GetInfoForPdfFile import GetInfoForPdfFile
+GetInfoForPdfFile.Run()
+from AdvancedUsage.RenderingOptionsByFileType.RenderingPdfDocuments.RenderOriginalPageSize import RenderOriginalPageSize
+RenderOriginalPageSize.Run()
+from AdvancedUsage.RenderingOptionsByFileType.RenderingSpreadsheets.AdjustTextOverflowInCells import AdjustTextOverflowInCells
+AdjustTextOverflowInCells.Run()
+from AdvancedUsage.RenderingOptionsByFileType.RenderingSpreadsheets.RenderHiddenColumnsAndRows import RenderHiddenColumnsAndRows
+RenderHiddenColumnsAndRows.Run()
+from AdvancedUsage.RenderingOptionsByFileType.RenderingSpreadsheets.RenderPrintAreas import RenderPrintAreas
+RenderPrintAreas.Run()
+from AdvancedUsage.RenderingOptionsByFileType.RenderingSpreadsheets.RenderSpreadsheetWithGridLines import RenderSpreadsheetWithGridLines
+RenderSpreadsheetWithGridLines.Run()
+from AdvancedUsage.RenderingOptionsByFileType.RenderingSpreadsheets.SkipRenderingOfEmptyColumns import SkipRenderingOfEmptyColumns
+SkipRenderingOfEmptyColumns.Run()
+from AdvancedUsage.RenderingOptionsByFileType.RenderingSpreadsheets.SkipRenderingOfEmptyRows import SkipRenderingOfEmptyRows
+SkipRenderingOfEmptyRows.Run()
+from AdvancedUsage.RenderingOptionsByFileType.RenderingSpreadsheets.SplitWorksheetsIntoPages import SplitWorksheetsIntoPages
+SplitWorksheetsIntoPages.Run()
+from AdvancedUsage.RenderingOptionsByFileType.RenderingWordProcessingDocuments.RenderTrackedChanges import RenderTrackedChanges
+RenderTrackedChanges.Run()
