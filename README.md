@@ -12,7 +12,7 @@ This repository contains [Examples](Examples) projects for [GroupDocs.Viewer Clo
 ## Prerequisites
 
 + Python with PIP installed
-+ Get your AppSID and AppKey at [https://dashboard.groupdocs.cloud](https://dashboard.groupdocs.cloud) (free registration is required).
++ Get your client id and client secret at [https://dashboard.groupdocs.cloud](https://dashboard.groupdocs.cloud) (free registration is required).
 
 ## How to Run the Examples?
 
@@ -20,7 +20,7 @@ The package contains Python examples. Follow the given steps to proceed run:
 
 * Extract the downloaded project
 * Go to "Examples" directory of the project
-* Edit RunExamples.py and put there appSid and appKey, obtained from [https://dashboard.groupdocs.cloud](https://dashboard.groupdocs.cloud)
+* Edit RunExamples.py and put there client id and client secret, obtained from [https://dashboard.groupdocs.cloud](https://dashboard.groupdocs.cloud)
 * Execute "pip install groupdocs_viewer_cloud" command
 * Run examples using "python RunExamples.py" command
 
