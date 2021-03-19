@@ -12,7 +12,7 @@ class PdfViewerProtectPdf:
         view_options.file_info.file_path = "SampleFiles/sample.docx"
         view_options.view_format = "PDF"
         view_options.render_options = groupdocs_viewer_cloud.PdfOptions()
-        view_options.render_options.permissions = "DenyModification"
+        view_options.render_options.permissions = ["DenyModification"]
         view_options.render_options.permissions_password = "p123"
         view_options.render_options.document_open_password = "o123"
 
