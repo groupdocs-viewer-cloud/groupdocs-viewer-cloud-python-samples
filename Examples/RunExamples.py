@@ -4,7 +4,7 @@ from Common import Common
 
 # Get your client id and client secret at https://dashboard.groupdocs.cloud (free registration is required).
 Common.client_id = "XXXX-XXXX-XXXX-XXXX"
-Common.client_secret = "XXXXXXXXXXXXXXXXXX"
+Common.client_secret = "XXXXXXXXXXXXXXXX"
 
 Common.myStorage = "First Storage"
 
@@ -25,6 +25,10 @@ from BasicUsage.HtmlViewer.HtmlViewerMinifyHtml import HtmlViewerMinifyHtml
 HtmlViewerMinifyHtml.Run()
 from BasicUsage.HtmlViewer.HtmlViewerResponsiveLayout import HtmlViewerResponsiveLayout
 HtmlViewerResponsiveLayout.Run()
+from BasicUsage.HtmlViewer.HtmlViewerLimitImageSize import HtmlViewerLimitImageSize
+HtmlViewerLimitImageSize.Run()
+from BasicUsage.HtmlViewer.HtmlViewerOptimizeForPrinting import HtmlViewerOptimizeForPrinting
+HtmlViewerOptimizeForPrinting.Run()
 from BasicUsage.ImageViewer.ImageViewerAddTextOverlay import ImageViewerAddTextOverlay
 ImageViewerAddTextOverlay.Run()
 from BasicUsage.ImageViewer.ImageViewerAdjustImageSize import ImageViewerAdjustImageSize
@@ -124,3 +128,9 @@ from AdvancedUsage.RenderingOptionsByFileType.RenderingSpreadsheets.SplitWorkshe
 SplitWorksheetsIntoPages.Run()
 from AdvancedUsage.RenderingOptionsByFileType.RenderingWordProcessingDocuments.RenderTrackedChanges import RenderTrackedChanges
 RenderTrackedChanges.Run()
+from AdvancedUsage.RenderingOptionsByFileType.RenderingLotusNotesDatabase.FilterMailStorage import FilterMailStorage
+FilterMailStorage.Run()
+from AdvancedUsage.RenderingOptionsByFileType.RenderingTextFiles.SpecifyMaxCharsAndRows import SpecifyMaxCharsAndRows
+SpecifyMaxCharsAndRows.Run()
+from AdvancedUsage.RenderingOptionsByFileType.RenderingVisioDocuments.RenderVisioDocumentFigures import RenderVisioDocumentFigures
+RenderVisioDocumentFigures.Run()
