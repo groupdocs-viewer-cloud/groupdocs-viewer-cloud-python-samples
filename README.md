@@ -23,7 +23,7 @@ The package contains Python examples. Follow the given steps to proceed run:
 + Go to "Examples" directory of the project
 + Edit RunExamples.py and put there client id and client secret, obtained from [https://dashboard.groupdocs.cloud](https://dashboard.groupdocs.cloud)
 + if older version of groupdocs_viewer_cloud was previously installed, execute "pip uninstall groupdocs_viewer_cloud" command
-+ Execute "pip install groupdocs_viewer_cloud" command
++ Execute "pip install groupdocs_viewer_cloud -U" command
 + Run examples using "python RunExamples.py" command
 
 For more details, visit  [Getting Started](https://docs.groupdocs.cloud/viewer/getting-started/).
