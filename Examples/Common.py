@@ -1,6 +1,5 @@
 import groupdocs_viewer_cloud
 import glob
-import os
 
 class Common:
 
